@@ -1,0 +1,144 @@
+body {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+}
+
+#elbox {
+  padding: 30px;
+}
+#elbox .box .minibox {
+  width: 150px;
+  height: 150px;
+  background-color: rgba(0, 162, 255, 0.5019607843);
+  margin: 10px;
+  border: 2px solid rgba(145, 255, 0, 0.3098039216);
+  transition: 2s;
+}
+#elbox .box .minibox h1 {
+  transition: 2s;
+}
+#elbox .box .minibox:hover {
+  border: 10px solid red;
+  border-radius: 70px;
+  transition: 2s;
+}
+#elbox .box .minibox:hover h1 {
+  color: #cc00ff;
+  padding: 10px;
+  transform: translate(35px, 40px);
+  font-size: 22px;
+  font-weight: 700;
+  transition: 2s;
+}
+
+#alibox {
+  padding: 30px;
+}
+#alibox .box {
+  display: flex;
+}
+#alibox .box .minibox {
+  width: 150px;
+  height: 150px;
+  background-color: rgba(255, 0, 0, 0.5019607843);
+  margin: 10px;
+  padding: 10px;
+  border: 3px solid #08c845;
+  transition: 2s;
+}
+#alibox .box .minibox h2 {
+  transition: 2s;
+}
+#alibox .box .minibox:hover {
+  border: 10px solid red;
+  height: 250px;
+  background-color: #ffee00;
+  font-size: 50px;
+}
+#alibox .box .minibox:hover h2 {
+  color: #020202;
+  padding: 10px;
+  transition: 2s;
+  transform: translate(30px, 65px);
+}
+#alibox .box .minibox1 {
+  width: 150px;
+  height: 150px;
+  background-color: rgba(255, 0, 0, 0.5019607843);
+  margin: 10px;
+  padding: 10px;
+  border: 3px solid #cc00ff;
+  transition: 2s;
+}
+#alibox .box .minibox1 h2 {
+  transition: 2s;
+}
+#alibox .box .minibox1:hover {
+  border: 10px solid red;
+  width: 250px;
+  background-color: #ffee00;
+  font-size: 50px;
+}
+#alibox .box .minibox1:hover h2 {
+  color: #020202;
+  padding: 10px;
+  transition: 1s;
+  transform: translate(80px, 30px);
+}
+
+#btn {
+  padding: 30px;
+}
+#btn .btn {
+  padding: 40px 60px;
+  background-color: rgba(0, 162, 255, 0.5019607843);
+  margin: 10px;
+  border: 3px solid #020202;
+  transition: 2s;
+}
+#btn .btn h5 {
+  transition: 2s;
+}
+#btn .btn:hover {
+  border: 10px solid red;
+  background-color: #ffee00;
+  font-size: 50px;
+  padding: 15px 30px;
+}
+
+#world {
+  padding: 30px;
+}
+#world .box .minibox {
+  width: 200px;
+  height: 200px;
+  background-color: rgba(255, 0, 238, 0.5019607843);
+  border: 5px solid #ffcc00;
+  transition: 2s;
+  padding: 20px;
+}
+#world .box .minibox h4 {
+  transition: 1s;
+}
+#world .box .minibox:hover {
+  border: 10px solid #fffb00;
+  height: 1000px;
+  background-color: #00bbff;
+  font-size: 50px;
+  border-radius: 300px;
+  width: 500px;
+  height: 500px;
+  transform: translate(0px, 100px);
+}
+#world .box .minibox:hover h4 {
+  color: #ff0000;
+  padding: 100px;
+  transition: 2s;
+  width: 700px;
+  transform: translate(0px, 80px);
+}
+#world .box .minibox:hover .icon {
+  color: #ffffff;
+  transition: 2s;
+  transform: translate(200px, -10px);
+}/*# sourceMappingURL=style.css.map */
